@@ -14,10 +14,13 @@ class Produto {
   double get precoComDesconto1 => (1 - desconto) * preco;
 }
 
-main() {
-  var p1 = Produto(codigo: 1, desconto: 0.13, nome: 'caneta', preco: 13.50);
+// main() {
 
-  print(p1.precoComDesconto);
+//   var p1 = Produto(codigo: 1, desconto: 0.13, nome: 'caneta', preco: 13.50);
 
-  return null;
-}
+//   print(p1.precoComDesconto);
+
+//   print(p1.precoComDesconto1);
+
+//   return null;
+// }

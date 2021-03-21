@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import './produto.dart';
 
 class Item {
@@ -16,7 +14,7 @@ class Item {
     return _preco;
   }
 
-  void set preco(double novoPreco) {
+  set preco(double novoPreco) {
     if (novoPreco > 0) {
       _preco = novoPreco;
     }
